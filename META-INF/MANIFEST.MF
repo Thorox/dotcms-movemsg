@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Name: Osgi Actionlet
+Bundle-Activator: edu.pittstate.movemsg.Activator
+Bundle-SymbolicName: Move To Messages
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.0
+DynamicImport-Package: *
+Import-Package: com.dotmarketing.osgi,
+ com.dotmarketing.portlets.workflows.actionlet,
+ com.dotmarketing.portlets.workflows.business,
+ com.dotmarketing.portlets.workflows.model,
+ com.dotmarketing.portlets.categories.business
+
